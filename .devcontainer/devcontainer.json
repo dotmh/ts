@@ -1,0 +1,7 @@
+{
+  "name": "DotMH Typescript",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "18" }
+  }
+}
