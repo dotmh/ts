@@ -4,9 +4,14 @@
   "description": "The basic typescript project setup for DotMH",
   "main": "index.js",
   "type": "module",
+  "prettier": "@dotmh/prettier-config",
   "scripts": {
     "test": "pnpm run -r test",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint": "eslint . --fix --ext .ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:check": "eslint . --ext .ts --fix-dry-run"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +19,12 @@
   "devDependencies": {
     "@commitlint/cli": "^19.1.0",
     "@commitlint/config-conventional": "^19.1.0",
+    "@dotmh/eslint-config-ts": "^1.0.0",
+    "@dotmh/prettier-config": "^1.0.0",
     "@types/node": "18.15.0",
+    "eslint": "^8.57.0",
     "husky": "^9.0.11",
+    "prettier": "^3.2.5",
     "tsx": "^4.7.1",
     "typescript": "^5.4.2"
   },
