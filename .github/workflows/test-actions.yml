@@ -1,5 +1,5 @@
 name: DotMH Test Actions
-run-name: ${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}
+run-name: 'TEST: ${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}'
 on: [push]
 jobs:
   test:
