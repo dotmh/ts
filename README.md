@@ -21,13 +21,13 @@ so much. It assumes that you want to make a Typescript project, whether for the 
 
 1. Create a new repo from this
    [template in github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. Duplicate the `hello` example in [libs/hello](https://github.com/dotmh/ts/blob/8a73d4eee158c9afa67b9c0dd721e8b4d0738231/libs/hello) and delete the original
+2. Duplicate the `hello` example in [libs/hello](libs/hello) and delete the original
 3. Connect to a new [Codespace](https://docs.github.com/en/codespaces/getting-started/quickstart)
 4. Start building out your project
 
 Optional
 
-- Add new packages to [pnpm-workspace.yaml](https://github.com/dotmh/ts/blob/e292b37a68e647c445d6073c9d11d27677626d31/pnpm-workspace.yaml) such as `apps` , `bins` etc.
+- Add new packages to [pnpm-workspace.yaml](pnpm-workspace.yaml) such as `apps` , `bins` etc.
 
 ## Technology
 
@@ -55,7 +55,8 @@ The repo makes use of [secret lint](https://github.com/secretlint/secretlint) to
 
 ## CI
 
-Makes use of Github actions, by default this will only [test the code](https://github.com/dotmh/ts/blob/a39ada806083c00c00216cdefb124b441bbe4bbb/.github/workflows/test-actions.yml)
+Makes use of Github actions, by default this will [test the code](.github/workflows/test-actions.yml) and
+in a separate parallel action it will [lint the code](.github/workflows/lint-actions.yml)
 
 ## Committing
 
@@ -67,7 +68,7 @@ When you make a commit the following will happen **BEFORE** the commit is added 
 4. Run the tests on all packages in the workspace - **BLOCKING**
 5. Check your git message conforms to conventional commits - **BLOCKING**
 
-This can be changed by changing the pnpm script `precommit` in the root [package.json](https://github.com/dotmh/ts/blob/d810594092ff2d0c5240b77828645aa23a7cda77/package.json#L16)
+This can be changed by changing the pnpm script `precommit` in the root [package.json](package.json#L16)
 
 ## License
 

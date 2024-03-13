@@ -13,7 +13,7 @@
     "format:check": "prettier --check .",
     "lint:check": "eslint . --ext .ts --fix-dry-run",
     "lint:secrets": "secretlint \"**/*\"",
-    "precommit": "pnpm run lint:secrets && pnpm run lint:check && pnpm run format:check && pnpm run test"
+    "githook:prepush": "pnpm run lint:secrets && pnpm run lint:check && pnpm run format:check && pnpm run test"
   },
   "keywords": [],
   "author": "",
