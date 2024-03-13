@@ -6,10 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/actions-setup@v2
+        with:
+          version: '8'
       - name: Node
         uses: actions/setup-node@v4
         with:
           node-version: '18.15.0'
-      - run: npm install -g pnpm@8
+          cache: 'pnpm'
       - run: pnpm install
       - run: pnpm test
