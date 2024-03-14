@@ -21,7 +21,7 @@ so much. It assumes that you want to make a Typescript project, whether for the 
 
 1. Create a new repo from this
    [template in github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. Duplicate the `hello` example in [libs/hello](libs/hello) and delete the original
+2. Duplicate the `hello` example in [libs/hello](/libs/hello) and delete the original
 3. Connect to a new [Codespace](https://docs.github.com/en/codespaces/getting-started/quickstart)
 4. Start building out your project
 
@@ -62,13 +62,20 @@ in a separate parallel action it will [lint the code](.github/workflows/lint-act
 
 When you make a commit the following will happen **BEFORE** the commit is added to git.
 
+1. Check your git message conforms to conventional commits - **BLOCKING**
+2. Checks you haven't commit any secrets - **BLOCKING**
+
+You can edit 1. in [.husky/commit-msg](.husky/commit-msg)
+You can edit 2. by editing the script `githook:precommit` the root [package.json](package.json#L17)
+
+When you push code up to a remote repository
+
 1. Checks you haven't commit any secrets - **BLOCKING**
 2. Run the code through eslint - **BLOCKING**
 3. Run the code through prettier - **BLOCKING**
 4. Run the tests on all packages in the workspace - **BLOCKING**
-5. Check your git message conforms to conventional commits - **BLOCKING**
 
-This can be changed by changing the pnpm script `precommit` in the root [package.json](package.json#L16)
+This can be changed by changing the pnpm script `githook:prepush` in the root [package.json](package.json#L16)
 
 ## License
 
