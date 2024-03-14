@@ -1,3 +1,5 @@
+![DotMH](https://github.com/dotmh/dotmh/raw/master/logo.png)
+
 # DotMH Typescript Template
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
