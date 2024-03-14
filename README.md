@@ -58,7 +58,7 @@ The repo makes use of [secret lint](https://github.com/secretlint/secretlint) to
 Makes use of Github actions, by default this will [test the code](.github/workflows/test-actions.yml) and
 in a separate parallel action it will [lint the code](.github/workflows/lint-actions.yml)
 
-## Committing
+## Git
 
 When you make a commit the following will happen **BEFORE** the commit is added to git.
 
@@ -66,9 +66,10 @@ When you make a commit the following will happen **BEFORE** the commit is added 
 2. Checks you haven't commit any secrets - **BLOCKING**
 
 You can edit 1. in [.husky/commit-msg](.husky/commit-msg)
+
 You can edit 2. by editing the script `githook:precommit` the root [package.json](package.json#L17)
 
-When you push code up to a remote repository
+When you push code up to a remote repository the following will happen _BEFORE_ the code is pushed
 
 1. Checks you haven't commit any secrets - **BLOCKING**
 2. Run the code through eslint - **BLOCKING**
