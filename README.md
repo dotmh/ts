@@ -67,9 +67,8 @@ When you make a commit the following will happen **BEFORE** the commit is added 
 1. Check your git message conforms to conventional commits - **BLOCKING**
 2. Checks you haven't commit any secrets - **BLOCKING**
 
-You can edit 1. in [.husky/commit-msg](.husky/commit-msg)
-
-You can edit 2. by editing the script `githook:precommit` the root [package.json](package.json#L17)
+- You can edit 1. in [.husky/commit-msg](.husky/commit-msg)
+- You can edit 2. by editing the script `githook:precommit` the root [package.json](package.json#L17)
 
 When you push code up to a remote repository the following will happen _BEFORE_ the code is pushed
 
