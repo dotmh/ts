@@ -1,6 +1,6 @@
-name: DotMH Shared Set Actions
-on:
-  workflow_call:
+name: DotMH Standard Tyescript Actions
+run-name: 'TEST: ${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}'
+on: [push]
 
 jobs:
   setup:
@@ -16,3 +16,7 @@ jobs:
           node-version: '18.15.0'
           cache: 'pnpm'
       - run: pnpm install
+      - name: Lint
+        run: pnpm lint
+      - name: Test
+        run: pnpm test
