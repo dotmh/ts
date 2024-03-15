@@ -1,9 +1,9 @@
 name: DotMH Standard Tyescript Actions
-run-name: 'TEST: ${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}'
+run-name: '${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}'
 on: [push]
 
 jobs:
-  setup:
+  TestAndLint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
