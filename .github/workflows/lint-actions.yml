@@ -2,17 +2,10 @@ name: DotMH Lint Actions
 run-name: 'LINT: ${{ github.actor }} - ${{ github.workflow }} - ${{ github.run_number }}'
 on: [push]
 jobs:
+  setup:
+    uses: ./.github/workflows/shared-setup-actions.yml
   test:
     runs-on: ubuntu-latest
+    needs: setup
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
-        with:
-          version: '8'
-      - name: Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18.15.0'
-          cache: 'pnpm'
-      - run: pnpm install
       - run: pnpm lint
