@@ -57,8 +57,7 @@ The repo makes use of [secret lint](https://github.com/secretlint/secretlint) to
 
 ## CI
 
-Makes use of Github actions, by default this will [test the code](.github/workflows/test-actions.yml) and
-in a separate parallel action it will [lint the code](.github/workflows/lint-actions.yml)
+Makes use of Github actions, by default this will [test and lint the code](.github/workflows/standard-actions.yml)
 
 ## Git
 
