@@ -24,7 +24,7 @@
     "@commitlint/config-conventional": "^19.1.0",
     "@dotmh/eslint-config-ts": "^1.0.0",
     "@dotmh/prettier-config": "^1.0.0",
-    "@secretlint/secretlint-rule-preset-recommend": "^8.1.2",
+    "@secretlint/secretlint-rule-preset-recommend": "^8.2.3",
     "@types/node": "18.19.28",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",

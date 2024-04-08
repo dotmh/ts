@@ -21,8 +21,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       '@secretlint/secretlint-rule-preset-recommend':
-        specifier: ^8.1.2
-        version: 8.1.2
+        specifier: ^8.2.3
+        version: 8.2.3
       '@types/node':
         specifier: 18.19.28
         version: 18.19.28
@@ -628,8 +628,8 @@ packages:
     resolution: {integrity: sha512-KsnFxJuT3hjc9GTmuEHGnuU4khamLYBuXd6dWaSzsOhADq6xMA5KE5qaFB4dRc7Yt8OtJMukWVht0bM4Kt5Hkg==}
     dev: true
 
-  /@secretlint/secretlint-rule-preset-recommend@8.1.2:
-    resolution: {integrity: sha512-JSbpTNhcyB/Ox/CXptK2ihjqoWZvcpJu2Ev3XYgO3/yRwx3O64jWGqHn2axGh6fcaIfUGgwoUVQa5GanlqKAWg==}
+  /@secretlint/secretlint-rule-preset-recommend@8.2.3:
+    resolution: {integrity: sha512-t2vZpZVQ3xG3d2Kyw0SURjY6bK2yQO3qWmb1z84dYxHqLfyaXwZ7iyhIUkwAwkqsRrjnhHO/9WCoV7RlfIWDzw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: true
 
