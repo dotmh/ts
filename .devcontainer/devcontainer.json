@@ -1,8 +1,7 @@
 {
-  "name": "DotMH Typescript",
+  "name": "DotMH Node",
   "build": {
-    "dockerfile": "Dockerfile",
-    "args": {"VARIANT": "18"}
+    "dockerfile": "Dockerfile"
   },
   "customizations": {
     "vscode": {
@@ -11,6 +10,13 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "ms-vscode.vscode-typescript-tslint-plugin",
+        "formulahendry.auto-rename-tag",
+        "nefrob.vscode-just-syntax",
+        "hashicorp.terraform",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "mattpocock.ts-error-translator",
+        "antfu.vite",
         "github.vscode-github-actions",
         "github.copilot",
         "github.copilot-chat"
