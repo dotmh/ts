@@ -1,5 +1,5 @@
 {
-  "name": "@dotmh/ts-hello",
+  "name": "@dotmh/template",
   "private": true,
   "version": "1.0.0",
   "description": "An Example Module in the DotMH TS template",

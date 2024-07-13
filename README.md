@@ -23,7 +23,7 @@ so much. It assumes that you want to make a Typescript project, whether for the 
 
 1. Create a new repo from this
    [template in github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. Duplicate the `hello` example in [libs/hello](/libs/hello) and delete the original
+2. Duplicate the `template` example in [libs/template](/libs/template)
 3. Connect to a new [Codespace](https://docs.github.com/en/codespaces/getting-started/quickstart)
 4. Start building out your project
 
