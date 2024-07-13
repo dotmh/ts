@@ -8,6 +8,8 @@
   "scripts": {
     "test": "pnpm run -r test",
     "prepare": "husky",
+    "build": "smart-builder",
+    "build:dry-run": "SKIP_BUILD=yes smart-builder",
     "lint": "eslint . --fix --ext .ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -24,6 +26,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@dotmh/eslint-config-ts": "^1.0.0",
     "@dotmh/prettier-config": "^1.0.0",
+    "@dotmh/smart-builder": "^1.1.1",
     "@dotmh/tsconfig": "^2.1.0",
     "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
     "@types/node": "20.14.9",

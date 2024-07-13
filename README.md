@@ -45,6 +45,28 @@ Optional
 
 This repo makes use of the [DotMH Tsconfig](https://github.com/dotmh/shared-typescript-configuration/blob/main/packages/tsconfig/tsconfig.json)
 
+## Smart Builder
+
+> [!WARNING]
+> This project includes support for [Smart Builder](https://github.com/dotmh/smart-builder) which is pre-release and so may contain bugs or not work as expected. It is also likely to change
+
+This project makes use of the experimental [Smart Builder](https://github.com/dotmh/smart-builder) a tool designed to build mono-repo package dependency chains in the correct warning. If you wish
+to use you don't need to do anything just run:
+
+```bash
+$ pnpm -w build
+```
+
+### Removing
+
+To remove smart builder is pretty easy
+
+```base
+$ pnpm un @dotmh/smart-build
+```
+
+Then update the `build` and `build:dry-run` tasks in [package.json](./package.json) at the project route
+
 ## Style
 
 The repo is designed to enforce code styling rules across the repo. It uses the DotMH
