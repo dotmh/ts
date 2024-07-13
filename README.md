@@ -41,6 +41,10 @@ Optional
   the repo supports devcontainers to allow easier development where ever they are supported, including
   using Github Codespaces.
 
+## Tsconfig
+
+This repo makes use of the [DotMH Tsconfig](https://github.com/dotmh/shared-typescript-configuration/blob/main/packages/tsconfig/tsconfig.json)
+
 ## Style
 
 The repo is designed to enforce code styling rules across the repo. It uses the DotMH

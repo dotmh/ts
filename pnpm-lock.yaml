@@ -20,6 +20,9 @@ importers:
       '@dotmh/prettier-config':
         specifier: ^1.0.0
         version: 1.0.0
+      '@dotmh/tsconfig':
+        specifier: ^2.1.0
+        version: 2.1.0
       '@secretlint/secretlint-rule-preset-recommend':
         specifier: ^8.2.4
         version: 8.2.4
@@ -145,6 +148,9 @@ packages:
 
   '@dotmh/prettier-config@1.0.0':
     resolution: {integrity: sha512-IUOkrPlH8XWxGdMVwKa4770Hx+MBRQsX3teq598vDh2dKg8R7ZO1S6judMlhY08CfAvLltalHwFgPFG/SVSFPw==}
+
+  '@dotmh/tsconfig@2.1.0':
+    resolution: {integrity: sha512-aJLa2syEvxBV2C/TbYbNq7QHiA1olVN1ItvHcq1eaFo2TvD4SyVQvHV1E+MQKg9TDksBRsH2VTMSYcF7cma8wg==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -1573,6 +1579,8 @@ snapshots:
       - typescript
 
   '@dotmh/prettier-config@1.0.0': {}
+
+  '@dotmh/tsconfig@2.1.0': {}
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
