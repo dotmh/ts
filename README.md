@@ -14,6 +14,8 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge&)](https://opensource.org/licenses/Apache-2.0)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge&)](code_of_conduct.md)
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=dotmh_ts)](https://sonarcloud.io/summary/new_code?id=dotmh_ts)
+
 ## Introduction
 
 This is a template project for me to build my other projects from without needing to boiler plate
@@ -55,6 +57,14 @@ to use you don't need to do anything just run:
 
 ```bash
 $ pnpm -w build
+```
+
+### Dry Run
+
+If you want to see which dependancies and in what order they are going to get built in run
+
+```bash
+$ pnpm -w build:smart-builder
 ```
 
 ### Removing
