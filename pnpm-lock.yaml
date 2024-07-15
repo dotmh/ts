@@ -15,8 +15,8 @@ importers:
         specifier: ^19.2.2
         version: 19.2.2
       '@dotmh/eslint-config-ts':
-        specifier: ^1.0.0
-        version: 1.0.0(@typescript-eslint/eslint-plugin@7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-promise@6.1.1(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)
+        specifier: ^2.0.0
+        version: 2.0.0(@typescript-eslint/eslint-plugin@7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-promise@6.1.1(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)
       '@dotmh/prettier-config':
         specifier: ^1.0.0
         version: 1.0.0
@@ -142,8 +142,8 @@ packages:
     resolution: {integrity: sha512-tpyc+7i6bPG9mvaBbtKUeghfyZSDgWquIDfMgqYtTbmZ9Y9VzEm2je9EYcQ0aoz5o7NvGS+rcDec93yO08MHYA==}
     engines: {node: '>=v18'}
 
-  '@dotmh/eslint-config-ts@1.0.0':
-    resolution: {integrity: sha512-Gc+Qx1WTQ7QK/ycY+gzQt0G/EBp4eJ2vz7Vu+N068uUQnGPh6GfgMCYyFisk5BBfq6QTsz+VQQgVuddqIa1LaA==}
+  '@dotmh/eslint-config-ts@2.0.0':
+    resolution: {integrity: sha512-P60KydQfEs2tepH73EZyKfBoagT+TFcgd4lE1odqgO5JtTwHUzwWlrLPFU5GomdfvlDH20Vf5qlZlxSPegZSJQ==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>5.2.0'
       eslint: '>8.7.0'
@@ -1647,7 +1647,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.0
       chalk: 5.3.0
 
-  '@dotmh/eslint-config-ts@1.0.0(@typescript-eslint/eslint-plugin@7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-promise@6.1.1(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)':
+  '@dotmh/eslint-config-ts@2.0.0(@typescript-eslint/eslint-plugin@7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-promise@6.1.1(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.0)(typescript@5.5.3)
