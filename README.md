@@ -64,7 +64,7 @@ $ pnpm -w build
 If you want to see which dependancies and in what order they are going to get built in run
 
 ```bash
-$ pnpm -w build:smart-builder
+$ pnpm -w build:dry-run
 ```
 
 ### Removing
