@@ -21,8 +21,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       '@dotmh/smart-builder':
-        specifier: ^1.1.1
-        version: 1.1.1
+        specifier: ^1.2.1
+        version: 1.2.1
       '@dotmh/tsconfig':
         specifier: ^2.1.0
         version: 2.1.0
@@ -152,8 +152,8 @@ packages:
   '@dotmh/prettier-config@1.0.0':
     resolution: {integrity: sha512-IUOkrPlH8XWxGdMVwKa4770Hx+MBRQsX3teq598vDh2dKg8R7ZO1S6judMlhY08CfAvLltalHwFgPFG/SVSFPw==}
 
-  '@dotmh/smart-builder@1.1.1':
-    resolution: {integrity: sha512-khDS8lZZwvu6pMnEfo9SuPwZxMRUPX9Jr/WbonxSXZ+l1TNPEQtUQEyiU/EMAXkES/0op7VgTk4vbakyE4mpkg==}
+  '@dotmh/smart-builder@1.2.1':
+    resolution: {integrity: sha512-FjOmXQ5Saf1b0nC28Ta5Ru9VtOilvRgOf+fSk0wbKsB5xbCVOHAQ/wgGpr5v3rlt3YbLq3O16imEKHqDRq3HxA==}
     engines: {node: ^20.14.0, pnpm: ^9.4.0}
     hasBin: true
 
@@ -1659,7 +1659,7 @@ snapshots:
 
   '@dotmh/prettier-config@1.0.0': {}
 
-  '@dotmh/smart-builder@1.1.1':
+  '@dotmh/smart-builder@1.2.1':
     dependencies:
       chalk: 5.3.0
       glob: 11.0.0
