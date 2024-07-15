@@ -18,8 +18,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(@typescript-eslint/eslint-plugin@7.3.1(@typescript-eslint/parser@7.3.1(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-promise@6.1.1(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)
       '@dotmh/prettier-config':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^2.0.0
+        version: 2.0.0
       '@dotmh/smart-builder':
         specifier: ^1.2.1
         version: 1.2.1
@@ -149,8 +149,8 @@ packages:
       eslint: '>8.7.0'
       eslint-plugin-promise: '>5.1.1'
 
-  '@dotmh/prettier-config@1.0.0':
-    resolution: {integrity: sha512-IUOkrPlH8XWxGdMVwKa4770Hx+MBRQsX3teq598vDh2dKg8R7ZO1S6judMlhY08CfAvLltalHwFgPFG/SVSFPw==}
+  '@dotmh/prettier-config@2.0.0':
+    resolution: {integrity: sha512-QkPnfFLukw0U6fcxFFmXmEzesqLRMG69snd1t0ZDSbxOlyHdBBs8Tv7SScON51yogH1COIf8dETcNqJiI+eoDg==}
 
   '@dotmh/smart-builder@1.2.1':
     resolution: {integrity: sha512-FjOmXQ5Saf1b0nC28Ta5Ru9VtOilvRgOf+fSk0wbKsB5xbCVOHAQ/wgGpr5v3rlt3YbLq3O16imEKHqDRq3HxA==}
@@ -1657,7 +1657,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@dotmh/prettier-config@1.0.0': {}
+  '@dotmh/prettier-config@2.0.0': {}
 
   '@dotmh/smart-builder@1.2.1':
     dependencies:
