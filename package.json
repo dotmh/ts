@@ -26,7 +26,7 @@
     "@commitlint/config-conventional": "^19.5.0",
     "@dotmh/eslint-config-ts": "^2.0.0",
     "@dotmh/prettier-config": "^2.0.0",
-    "@dotmh/smart-builder": "^1.2.1",
+    "@dotmh/smart-builder": "^1.2.3",
     "@dotmh/tsconfig": "^2.1.0",
     "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
     "@types/node": "20.16.10",
