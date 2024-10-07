@@ -28,7 +28,7 @@
     "@dotmh/prettier-config": "^2.0.0",
     "@dotmh/smart-builder": "^1.2.3",
     "@dotmh/tsconfig": "^2.1.0",
-    "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
+    "@secretlint/secretlint-rule-preset-recommend": "^8.4.0",
     "@types/node": "20.16.10",
     "eslint": "^8.57.1",
     "husky": "^9.1.6",
