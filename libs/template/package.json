@@ -7,7 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "tsx --test ./tests/*.test.ts"
+    "test": "vitest --run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",

@@ -5,6 +5,7 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
+![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-%23FE5196?style=for-the-badge&logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
@@ -37,8 +38,11 @@ Optional
 
 - [Typescript](https://www.typescriptlang.org/) language
 - [PNPM](https://pnpm.io/) for package managing, also set up as a workspace
-- Tests are been done on the built in [node test runner](https://nodejs.org/docs/latest-v18.x/api/test.html)
+- Tests are been done on [VITEST](https://vitest.dev/)
 - CI / CD is been handled by [github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs)
+
+### Supported
+
 - [Github Codespaces](https://github.com/features/codespaces) / [Devcontainers](https://containers.dev)
   the repo supports devcontainers to allow easier development where ever they are supported, including
   using Github Codespaces.
@@ -53,7 +57,7 @@ This repo makes use of the [DotMH Tsconfig](https://github.com/dotmh/shared-type
 > This project includes support for [Smart Builder](https://github.com/dotmh/smart-builder) which is pre-release and so may contain bugs or not work as expected. It is also likely to change
 
 This project makes use of the experimental [Smart Builder](https://github.com/dotmh/smart-builder) a tool designed to build mono-repo package dependency chains in the correct warning. If you wish
-to use you don't need to do anything just run:
+to use it, you don't need to do anything just run:
 
 ```bash
 $ pnpm -w build
@@ -61,7 +65,7 @@ $ pnpm -w build
 
 ### Dry Run
 
-If you want to see which dependancies and in what order they are going to get built in run
+If you want to see which dependencies and in what order they are going to get built in run
 
 ```bash
 $ pnpm -w build:dry-run
