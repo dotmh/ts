@@ -39,6 +39,7 @@ Optional
 - [Typescript](https://www.typescriptlang.org/) language
 - [PNPM](https://pnpm.io/) for package managing, also set up as a workspace
 - Tests are been done on [VITEST](https://vitest.dev/)
+- Code Coverage is done with Istanbul and will output HTML and JSON, as well as Text on the command line
 - CI / CD is been handled by [github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs)
 
 ### Supported
