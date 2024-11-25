@@ -24,7 +24,7 @@
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
+    "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@dotmh/eslint-config-ts": "^2.0.0",
     "@dotmh/prettier-config": "^2.0.0",
