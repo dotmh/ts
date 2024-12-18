@@ -1,11 +1,4 @@
-// vitest.config.ts
-import {defineConfig} from 'vitest/config';
+import {defineConfig, mergeConfig} from 'vitest/config';
+import baseConfig from '../../vitest.config.js';
 
-export default defineConfig({
-  test: {
-    coverage: {
-      provider: 'istanbul',
-      reporter: ['text', 'json', 'html'],
-    },
-  },
-});
+export default defineConfig(mergeConfig(baseConfig, {}));
