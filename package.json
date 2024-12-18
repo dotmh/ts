@@ -6,9 +6,9 @@
   "type": "module",
   "prettier": "@dotmh/prettier-config",
   "scripts": {
-    "test": "pnpm run -r test",
+    "test": "vitest --run",
     "test:watch": "vitest",
-    "test:coverage": "pnpm run -r test:coverage",
+    "test:coverage": "vitest --coverage --run",
     "prepare": "husky",
     "build": "smart-builder",
     "build:dry-run": "SKIP_BUILD=yes smart-builder",

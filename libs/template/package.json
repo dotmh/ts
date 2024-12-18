@@ -5,6 +5,8 @@
   "description": "An Example Module in the DotMH TS template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
+  "module": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "vitest --run",
