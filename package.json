@@ -31,7 +31,7 @@
     "@dotmh/smart-builder": "^1.2.3",
     "@dotmh/tsconfig": "^2.1.0",
     "@secretlint/secretlint-rule-preset-recommend": "^9.0.0",
-    "@types/node": "20.17.16",
+    "@types/node": "20.17.22",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
     "@typescript-eslint/parser": "^8.22.0",
     "@vitest/coverage-istanbul": "^3.0.4",
