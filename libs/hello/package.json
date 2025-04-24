@@ -1,0 +1,19 @@
+{
+  "name": "@dotmh/template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An Example Module in the DotMH TS template",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest --coverage --run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0"
+}

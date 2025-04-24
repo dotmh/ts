@@ -26,13 +26,14 @@ so much. It assumes that you want to make a Typescript project, whether for the 
 
 1. Create a new repo from this
    [template in github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. Duplicate the `template` example in [templates/base](/templates/base) to [libs/](/libs/)
+2. Rename the `hello` example in [libs/hello](/libs/hello)
 3. Connect to a new [Codespace](https://docs.github.com/en/codespaces/getting-started/quickstart)
 4. Start building out your project
 
 Optional
 
 - Add new packages to [pnpm-workspace.yaml](pnpm-workspace.yaml) such as `apps` , `bins` etc.
+- create new modules in packages by copy [templates/base](/templates/base/) to the package folder
 
 ## Technology
 
