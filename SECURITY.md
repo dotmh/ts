@@ -25,12 +25,14 @@ To help me understand and address the issue quickly, please include:
 **Initial Response:** I will acknowledge receipt of your report and provide an initial assessment within **14 days**.
 
 **Assessment Outcome:** I will inform you whether the report has been:
+
 - **Accepted** as a valid security issue
 - **Rejected** (with reasoning)
 
 **If Rejected:** You may appeal the decision **once** by replying to my response email with additional information or clarification.
 
 **If Accepted:** I will provide further guidance on next steps, including:
+
 - Timeline for developing a fix
 - Coordination of disclosure
 - Any additional information needed
@@ -40,6 +42,7 @@ All further communication will be conducted via email replies to your original r
 ### Disclosure Policy
 
 I ask that you:
+
 - **Keep the issue confidential** until I have released a fix and published a security advisory
 - **Give me reasonable time** to address the vulnerability before any public disclosure
 - **Act in good faith** and avoid privacy violations, data destruction, or service disruption during your research
