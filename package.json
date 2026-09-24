@@ -37,7 +37,7 @@
     "eslint-plugin-promise": "^7.3.0",
     "husky": "^9.1.7",
     "prettier": "^3.7.4",
-    "secretlint": "^13.0.2",
+    "secretlint": "^13.0.5",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vitest": "^4.1.6",
