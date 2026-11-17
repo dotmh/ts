@@ -44,22 +44,11 @@
     "yaml": "^2.9.0"
   },
   "engines": {
-    "node": ">=22.15.0",
-    "pnpm": ">=10.23.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "ajv@8": "8.20.0",
-      "brace-expansion@1": "1.1.13",
-      "fast-uri": "3.1.2",
-      "flatted": "3.4.2",
-      "picomatch": "4.0.4",
-      "postcss": "8.5.14",
-      "rollup": "4.60.4",
-      "vite": "7.3.3"
-    }
+    "node": ">=26.13.1",
+    "pnpm": ">=12.21.0"
   },
   "dependencies": {
     "@dotmh/ts-base": "link:"
-  }
+  },
+  "packageManager": "pnpm@12.21.0"
 }

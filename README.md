@@ -30,6 +30,11 @@ so much. It assumes that you want to make a Typescript project, whether for the 
 3. Connect to a new [Codespace](https://docs.github.com/en/codespaces/getting-started/quickstart)
 4. Start building out your project
 
+Use Node.js 26.13.1 LTS (`nvm install && nvm use`) and pnpm 12.21.0.
+Install pnpm with `npm install --global pnpm@12.21.0`, then run
+`pnpm install --frozen-lockfile`. CI reads these versions from `.nvmrc` and
+`package.json`.
+
 Optional
 
 - Add new packages to [pnpm-workspace.yaml](pnpm-workspace.yaml) such as `apps` , `bins` etc.
