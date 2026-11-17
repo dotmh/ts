@@ -11,7 +11,7 @@
     "build": "tsc",
     "test": "vitest --run",
     "test:watch": "vitest",
-    "test:coverage": "vitest --coverage --run"
+    "test:coverage": "vitest --coverage --coverage.provider=istanbul --run"
   },
   "keywords": [],
   "author": "",
