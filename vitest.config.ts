@@ -7,8 +7,9 @@ const WORKSPACE_FILE = 'pnpm-workspace.yaml';
 
 export default defineConfig({
   test: {
-    projects: parse(readFileSync(join(__dirname, WORKSPACE_FILE), 'utf8'))
-      .packages,
+    projects: parse(
+      readFileSync(join(import.meta.dirname, WORKSPACE_FILE), 'utf8')
+    ).packages,
     exclude: [...configDefaults.exclude, '**/coverage/**', '**/dist/**'],
     coverage: {
       provider: 'istanbul',

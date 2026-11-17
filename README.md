@@ -30,6 +30,11 @@ so much. It assumes that you want to make a Typescript project, whether for the 
 3. Connect to a new [Codespace](https://docs.github.com/en/codespaces/getting-started/quickstart)
 4. Start building out your project
 
+Use Node.js 26.13.1 LTS (`nvm install && nvm use`) and pnpm 12.21.0.
+Install pnpm with `npm install --global pnpm@12.21.0`, then run
+`pnpm install --frozen-lockfile`. CI reads these versions from `.nvmrc` and
+`package.json`.
+
 Optional
 
 - Add new packages to [pnpm-workspace.yaml](pnpm-workspace.yaml) such as `apps` , `bins` etc.
@@ -52,6 +57,13 @@ Optional
 ## Tsconfig
 
 This repo makes use of the [DotMH Tsconfig](https://github.com/dotmh/shared-typescript-configuration/blob/main/packages/tsconfig/tsconfig.json)
+
+## Dependency compatibility
+
+ESLint stays on 9.39.5 because `@dotmh/eslint-config-ts` 3.0.1 requires ESLint 9.
+TypeScript stays on 6.0.3 because TypeScript ESLint 8.73.0 supports TypeScript
+versions below 6.1. Upgrade those integrations before moving to ESLint 10 or
+TypeScript 7.
 
 ## Style
 
