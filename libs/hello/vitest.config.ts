@@ -1,4 +1,8 @@
-import {defineConfig, mergeConfig} from 'vitest/config';
-import baseConfig from '../../vitest.config.js';
+import {configDefaults, defineProject} from 'vitest/config';
 
-export default defineConfig(mergeConfig(baseConfig, {}));
+export default defineProject({
+  test: {
+    root: import.meta.dirname,
+    exclude: [...configDefaults.exclude, '**/coverage/**', '**/dist/**'],
+  },
+});

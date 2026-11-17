@@ -58,6 +58,13 @@ Optional
 
 This repo makes use of the [DotMH Tsconfig](https://github.com/dotmh/shared-typescript-configuration/blob/main/packages/tsconfig/tsconfig.json)
 
+## Dependency compatibility
+
+ESLint stays on 9.39.5 because `@dotmh/eslint-config-ts` 3.0.1 requires ESLint 9.
+TypeScript stays on 6.0.3 because TypeScript ESLint 8.73.0 supports TypeScript
+versions below 6.1. Upgrade those integrations before moving to ESLint 10 or
+TypeScript 7.
+
 ## Style
 
 The repo is designed to enforce code styling rules across the repo. It uses the DotMH
