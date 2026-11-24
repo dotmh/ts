@@ -192,8 +192,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       '@dotmh/tsconfig':
-        specifier: ^2.1.0
-        version: 2.1.0
+        specifier: ^2.1.2
+        version: 2.1.2
       '@types/node':
         specifier: 26.6.6
         version: 26.6.6
@@ -355,8 +355,8 @@ packages:
   '@dotmh/prettier-config@2.0.0':
     resolution: {integrity: sha512-QkPnfFLukw0U6fcxFFmXmEzesqLRMG69snd1t0ZDSbxOlyHdBBs8Tv7SScON51yogH1COIf8dETcNqJiI+eoDg==}
 
-  '@dotmh/tsconfig@2.1.0':
-    resolution: {integrity: sha512-aJLa2syEvxBV2C/TbYbNq7QHiA1olVN1ItvHcq1eaFo2TvD4SyVQvHV1E+MQKg9TDksBRsH2VTMSYcF7cma8wg==}
+  '@dotmh/tsconfig@2.1.2':
+    resolution: {integrity: sha512-6az/qTJThg9bUowm4frHSe0kJ0nt3cgxHNpUYp60shWU5DpN1Op+lD0z+uBR/fzZ5UvD5VGyzZ/hcPYDx4CL1w==}
 
   '@emnapi/core@2.0.0-beta.2':
     resolution: {integrity: sha512-MzCVoWtcg4Pm2B3je5mMvYMvj3MmBKw+fU7vbsJc9/iT8ip6/eYIHo/Dsm/mr+wsHB6SEyJDuxB09Yy6r/8+4A==}
@@ -1931,7 +1931,7 @@ snapshots:
 
   '@dotmh/prettier-config@2.0.0': {}
 
-  '@dotmh/tsconfig@2.1.0': {}
+  '@dotmh/tsconfig@2.1.2': {}
 
   '@emnapi/core@2.0.0-beta.2':
     dependencies:
